@@ -1,0 +1,12 @@
+dependencies {
+    implementation project(":a")
+    implementation project(":e")
+
+    // Implicit dependencies
+    // Superclass
+    implementation project(":f")
+    // Optional param
+    implementation project(":g")
+    // Ignored return
+    implementation project(":h")
+}

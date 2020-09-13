@@ -1,0 +1,33 @@
+rootProject.name = 'modularization'
+
+/**
+ * Structure is
+ * root
+ *      a
+ *          b:api
+ *                  c:api
+ *                  c:imp
+ *          b:imp
+ *                  d:api
+ *                  d:imp
+ */
+include 'root'
+
+include 'a'
+
+include 'b:api'
+include 'b:imp'
+
+include 'c:api'
+include 'c:imp'
+
+include 'd:api'
+include 'd:imp'
+
+include 'e'
+include 'f'
+include 'g'
+include 'h'
+include 'i'
+include 'j'
+include 'k'

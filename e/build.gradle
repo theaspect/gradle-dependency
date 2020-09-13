@@ -1,0 +1,8 @@
+dependencies {
+    implementation project(":f")
+    implementation project(":g")
+    implementation project(":h")
+    implementation project(":i")
+    implementation project(":j")
+    implementation project(":k")
+}

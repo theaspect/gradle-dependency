@@ -1,0 +1,24 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.10'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+group 'me.blzr'
+version '1.0-SNAPSHOT'
+
+subprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    apply plugin: "kotlin"
+
+    dependencies {
+        implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    }
+}

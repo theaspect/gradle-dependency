@@ -1,0 +1,4 @@
+dependencies {
+    api project(":d:api")
+    implementation project(":d:imp")
+}
